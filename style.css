@@ -27,7 +27,7 @@ body {
   background-color: white;
   width: 343px;
   margin: 1rem;
-  border-radius: 0.75rem;
+  border-radius: 1rem;
 }
 
 header img {
@@ -45,11 +45,14 @@ h1,
   color: var(--Dark-blue);
   font-weight: bold;
 }
+.main-tittle{
+  margin: 1rem 0;
+}
 
 .plan-section {
   background-color: var(--Very-pale-blue);
   border-radius: 1rem;
-  margin: 1.5rem 0;
+  margin: 2rem 0;
   padding: 1rem 0.5rem;
   display: flex;
   justify-content: space-between;
@@ -83,10 +86,10 @@ button {
   display: block;
   margin: 1rem auto;
   width: 100%;
-  }
+  box-shadow: 0px 10px 31px 5px hsla(245, 75%, 52%,.35);}
 .btn-cancel-order {
   display: block;
-  margin: 1rem auto;
+  margin: 1.5rem auto;
   border: unset;
   background-color: unset;
   color: var(--Desaturated-blue);
